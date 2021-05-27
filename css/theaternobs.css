@@ -1,0 +1,203 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/*    border: 1px solid red;*/
+}
+
+body {
+    background-color: black;
+    z-index: -2;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    z-index: -1;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 15em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+}
+
+.top {
+    background-color: black;
+}
+input {
+    width: 100%;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border: 2px black;
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+.main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 101%;
+    opacity: 95%;
+}
+
+.content {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    width: 750px;
+}
+
+.flyer {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.image {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    flex-grow: 3;
+    padding-left: 3em;
+    font-size: 1.5em;
+}
+
+.button {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 2em;
+    background-color: goldenrod;
+    padding: 12px 20px 20px 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.home {
+    flex-grow: 1;
+}
+
+.features {
+    flex-grow: 1;
+}
+
+.actors {
+    flex-grow: 1;
+}
+
+.mission {
+    flex-grow: 1;
+}
+
+.contact {
+    flex-grow: 1;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 101%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+location {
+    display: flex;
+    flex-direction: row;
+}
